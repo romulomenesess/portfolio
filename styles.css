@@ -1,0 +1,415 @@
+:root {
+    --branco: #fff;
+    --azulescuro: #142850;
+    --azulsecundario: #537188;
+    --azulterciario: #9BABB8;
+    --preto: #464646;
+    --Cinza: #ffffffd3;
+    --corSobreMim: #FEFAF6;
+}
+
+.cabecalho {
+    background-color: var(--azulescuro);
+    padding-right: 40px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.textoCabecalho {
+    color: var(--branco);
+    font-size: 20px;
+    padding-left: 2.5rem;
+
+}
+
+.botoes-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.botoes-header{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.botoes-header:hover {
+    color: var(--azulsecundario);
+    transition: 2ms;
+}
+
+.apresentacao {
+    color: var(--branco);
+    background-color: var(--azulsecundario);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacaoTexto{
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloPagina {
+    color: var(--Cinza);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 12px;
+}
+
+.subtituloPagina {
+    color: var(--Cinza);
+    font-size: 28px;
+    font-weight: 400;
+    text-indent: 10px;
+}
+
+.botoesLinksRedes {
+    padding: 20px;
+    display: flex;
+    gap: 2.5rem;
+}
+
+
+.linksRedes {
+    color: var(--Cinza);
+    border: 1px solid #9BB0C1;
+    border-radius: 12px;
+    padding: 8px;
+    font-size: 28px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-self: center;
+    flex-direction: row;
+    gap: 1.8rem;
+}
+
+.linksRedes:hover {
+    background-color: #9BB0C1;
+    color: #537188;
+    scale: 1.2;
+    transition: 5000;
+}
+
+.sobreMim {
+    padding: 48px;
+    text-align: justify;
+    background-color: var(--azulterciario);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+.tituloSobreMim {
+    color: var(--preto);
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+
+.paragrafoSobreMim, .paragrafoP {
+    color: var(--preto);
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    row-gap: 10px;
+}
+
+.assinaturaSobremim {
+    display: flex;
+    justify-content: start;
+    width: 15vw;
+}
+
+.habilidadesHobbies {
+    gap: 20px;
+}
+
+.habilidadesLista, .hobbiesLista{
+    background-color: var(--azulsecundario);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    padding-top: 1.5rem;
+}
+
+.habilidadeIcone img, .habilidadeDescricao, .hobbiesIcone img, .hobbiesDescricao{
+    padding: 0 0 10px 10px;
+}
+
+.quadrados {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    text-align: start;
+    height: 180px;
+    width: 180px;
+    background-color: #C9D7DD;
+}
+
+.habilidadesQuadrados, .hobbiesQuadrados {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 20px;
+    margin: 1.5rem;
+}
+
+.habilidadeDescricao, .hobbiesDescricao {
+    color: #2f5e82;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.tituloH, .tituloF, .tituloP{
+    color: var(--Cinza);
+    font-size: 36px;
+    font-weight: 800;
+    margin: 10px;
+    
+}
+
+.habilidadeIcone, .hobbiesIcone {
+    justify-content: end;
+    align-items: start;
+}
+
+.formacao{
+    background-color: var(--azulterciario);
+    padding: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.tituloF{
+    color: var(--preto);
+}
+
+.cursos {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    gap: 10px
+}
+
+.cursoLogo {
+    height: 286px;
+    width: 368px;
+    background-color: var(--branco);
+    
+}
+
+.cursoLogo img{
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursoTitulo {
+    color: var(--preto);
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 1.2rem;
+}
+
+.cursoSubTitulo{
+    color: #464646;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cursoListas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem
+}
+
+.projetos {
+    background-color: var(--azulsecundario);
+    padding: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px
+}
+
+.projetosInformacoes1 {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    gap: 30px;
+}
+
+.projetosInformacoes2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+}
+
+.paragrafoP {
+    color: var(--Cinza);
+    align-items: start;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.imagensProjetos {
+    height: 300px;
+    width: 550px;
+    margin: 28px;
+}
+.projetosDescricao {
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    border-radius: 16px;
+    padding: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.botoesProjetos {
+    padding: 1.2rem;
+}
+
+.botoesProjetosVisitar {
+    text-decoration: none;
+    background-color: var(--azulescuro);
+    color: var(--Cinza);
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.botoesProjetosRepositorio {
+    text-decoration: none;
+    background-color: #EAF2FD;
+    color: var(--preto);
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.footer {
+    background-color: var(--azulescuro);
+    color: #9BB0C1;
+    font-size: 19px;
+}
+
+.footerRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+@media (min-width: 768px)  and (max-width: 1400px){
+    .botoes-cabecalho{
+        display: none;
+    }
+
+    #contato {
+        display: block;
+    }
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apresentacaoTexto {
+        gap: 10px;
+    }
+
+    .subtituloPagina {
+        display: flex;
+        justify-content: center;
+    }
+
+    .assinaturaSobremim {
+        display: flex;
+        justify-content: start;
+        width: 15vw;
+    }
+
+    .habilidadesQuadrados{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hobbiesQuadrados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .habilidadeIcone img, .habilidadeDescricao, .hobbiesIcone img, .hobbiesDescricao{
+        padding: 0 0 10px 10px;
+    }
+
+    .cursos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    .cursoLogo img {
+        display: flex;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .projetosDescricao {
+        font-size: 1.5rem;
+        background-color: transparent;
+        display: flex;
+        align-content: flex-start;
+    }
+
+    .projetosInformacoes1, .projetosInformacoes2 {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+    }
+
+    .imagensProjetos {
+        width: 90vw;
+        height: 40vh;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767) {
+    .cabecalho {
+        display: none;
+    }
+
+    .apresentacao {
+        display: flex;
+        
+    }
+}
