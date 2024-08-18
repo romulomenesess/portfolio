@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- cabecalho com os atalhos para o resto do site -->
     <header class="cabecalho">
         <p class="textoCabecalho">Rômulo Meneses</p>
         <nav class="botoes-cabecalho">
@@ -16,23 +18,25 @@
             <a class="botoes-header" href="#hobbies">Hobbies</a>
             <a class="botoes-header" href="#formacao">Formação</a>
             <a class="botoes-header" href="#projetos">Projetos</a>
+            <a class="botoes-header" href="#contato">Contato</a>
         </nav>
         <p class="botoes-header">romulomenesessaraujo@gmail.com</p>
     </header>
-        <div class="apresentacao">
+    <div class="apresentacao">
             <div class="apresentacaoTexto">
-            <h1 class="tituloPagina"> Olá, sou Rômulo Meneses e desenvolvo páginas web.</h1>
-            <h3 class="subtituloPagina">Sou estudante de análise e desevolvimento de sistemas e atualmente estou interessado na área do front-end.</h3>
-        </div>
-        <div class="botoesLinksRedes">
-            <a href="https://www.linkedin.com/in/rômulomenesess/" class="linksRedes">LinkedIn</a>
-            <a href="https://github.com/romulomenesess" class="linksRedes">GitHub </a>
-            <a href="https://www.instagram.com/romulomenesess/" class="linksRedes">Instagram </a>
-            <a href="./Currículo - Rômulo Meneses.pdf" class="linksRedes">Currículo</a>
-        </div>
-
+                <h1 class="tituloPagina"> Olá, sou Rômulo Meneses e desenvolvo páginas web.</h1>
+                <h3 class="subtituloPagina">Sou estudante de análise e desevolvimento de sistemas e atualmente estou interessado na área do front-end.</h3>
+            </div>
+            <div class="botoesLinksRedes">
+                <a href="https://www.linkedin.com/in/rômulomenesess/" class="linksRedes">LinkedIn</a>
+                <a href="https://github.com/romulomenesess" class="linksRedes">GitHub </a>
+                <a href="https://www.instagram.com/romulomenesess/" class="linksRedes">Instagram </a>
+                <a href="./Currículo - Rômulo Meneses.pdf" class="linksRedes">Currículo</a>
+            </div>
         <!-- <img src="" alt="Foto de Rômulo" class="foto"> -->
     </div>
+
+    <!-- área de sobre mim, descrição de mim mesmo -->
     <div class="sobreMim"  id="sobremim">
         <h2 class="tituloSobreMim">Sobre mim</h2>
         <p class="paragrafoSobreMim">Desde criança sempre tive contato com computadores e videogames e ao longo dessa interação fui criando uma certa curiosidade a respeito de como aquelas máquinas funcionavam, como eram capazes de tantas coisas incrivéis.
@@ -41,9 +45,10 @@
         <p class="paragrafoSobreMim">No ensino médio tive a oportunidade de realizar o sonho de fazer intercâmbio no Canadá durante um semestre acadêmico e acredito que essa foi a porta para destravar meu 
             inglês, que é uma ferramente preciosissíma no mercado de desenvolvedor. Atualmente, me interesso pelo desenvolvimento web e aplicação da tecnologia para transformar outras vidas assim como a minha foi transformada por ela.</p>
 
-        <img src="./imgs/assinatura.png" alt="assinatura" class="assinaturaSobremim">
+        <img src="./imgs/assinaturaRomulo.png" alt="assinatura" class="assinaturaSobremim">
     </div>
     
+    <!-- Seção de habilidades feita com listas não ordenadas-->
         <section class="habilidadesLista" id="habilidades">
             <h3 class="tituloH">Habilidades</h3>
                 <div class="habilidadesQuadrados">
@@ -81,10 +86,10 @@
                             <li class="habilidadeDescricao">React</li>
                         </ul>
                     </div>
-
             </div>
         </section>
 
+        <!-- Seção de hobbies feita também com listas não ordenadas-->
         <section class="hobbiesLista" id="hobbies">
             <h3 class="tituloH">Hobbies</h3>
                 <div class="hobbiesQuadrados">
@@ -126,6 +131,7 @@
             </div>
         </section>
 
+    <!-- Área de formação acadêmica, seguindo a mesma lógica -->
     <section class="formacao" id="formacao">
         <h2 class="tituloF">Formação acadêmica</h2>
         <div class="cursos">
@@ -151,8 +157,17 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Seção de idiomas com logos adqueridos gratuitamente no site Flatiocon, sendo estes criados por seus respectivos artistas disposto no title, seguido a recomendação para o uso dos ícones -->
+        <div class="idiomas">
+            <a href="https://www.flaticon.com/br/icones-gratis/estatua-da-liberdade" title="Ícones criados por Freepik - Flaticon" class="botoesIdiomas"> <img src="./imgs/estatua-da-liberdade.png" class="logoIdiomas">Inglês - B2</a>
+            <a href="https://www.flaticon.com/br/icones-gratis/torre-eiffel" title="Ícones criados por Freepik - Flaticon" class="botoesIdiomas"> <img src="./imgs/torre-eiffel.png" class="logoIdiomas">Francês - B1 </a>
+            <a href="https://www.flaticon.com/br/icones-gratis/arquitetura-e-cidade" title="Ícones criados por Freepik - Flaticon" class="botoesIdiomas"> <img src="./imgs/torre-inclinada-de-pisa.png" class="logoIdiomas">Italiano - B1</a>
+            <a href="https://www.flaticon.com/br/icones-gratis/espanha" title="Ícones criados por Eucalyp - Flaticon" class="botoesIdiomas"> <img src="./imgs/brazao.png" class="logoIdiomas">Espanhol - A2</a>
+        </div>
     </section>
 
+    <!-- Área de projetos práticos prévios feitos por mim, disponiveis para teste e acesso ao repositório -->
     <div class="projetos" id="projetos">
         <h2 class="tituloP">Projetos</h2>
         
@@ -220,9 +235,36 @@
                 </div>     
         </div>
 
-
     </div>
 
+    <!-- seção do formulário para contato -->
+    <div class="formulario__container" id="contato">
+
+        <h2 class="formulario__titulo">Entre em contato</h2>
+
+        <div class="formulario">
+                <form action="#" class="formulario2">
+                
+                    <div class="nomeFormulario">
+                        <label for="nome" class="nomeFormulario">Nome:</label>
+                        <input type="text" id="nome" name="nome" required style="height: 35px; width: 280px;">
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required autocomplete="email" style="height: 35px; width: 280px;">
+
+                        <label for="mensagemTexto">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required style="height: 100px; width: 280px;"></textarea>
+                    </div>
+
+                    <div class="botaoFormulario">
+                        <button type="submit" class="contato__botoes" id="botao">Enviar</button>
+                    </div>
+                </form>
+        </div>
+        
+    </div>
+
+    <!-- rodape do site -->
     <section class="footer">
         <div class="footerRodape">
             <p>Desenvolvido por Rômulo Meneses</p>
